@@ -16,13 +16,13 @@ Write a natural-language prompt that will be given to an AI assistant (like Chat
 Why I worded it this way
 
 - Explicit role & constraints: I open by assigning a clear role (Debugging Assistant) and a strict constraint (no full solution). This focuses the model on pedagogy and diagnostic guidance rather than generating fixes.
-- 
+  
 - Structured output: A fixed output template (Summary → Diagnostics → Likely cause → Hint → Tests) makes responses predictable, concise, and easy for graders to evaluate.
-- 
+  
 - Diagnostic-first flow: The prompt asks for concrete diagnostic steps before any hypothesis. This enforces the scientific testing approach (observe → test → infer), which both mirrors how engineers debug and teaches the student good habits.
-- 
+  
 - Minimal hints, not fixes: Hints are limited to tiny pseudocode sketches — enough to guide thought but not to copy/paste into a solution. This satisfies the requirement to avoid revealing the correct solution.
-- 
+  
 - Requesting minimal reproducible context: The assistant asks for the smallest missing piece of evidence (traceback, failing test, or minimal snippet) to reduce back-and-forth and increase accuracy.
 
 How the prompt prevents giving the solution
