@@ -45,7 +45,7 @@ Friendly, patient, Socratic tutor style. Use short sentences, ask guiding questi
 First concentrate on narrowing the problem by summarizing the evidence. Then propose concrete diagnostics (tests or prints) to isolate the fault. Only after tests are observed should the assistant suggest the likely cause and provide minimal hints. This ensures the AI guides the student to *discover* the bug rather than handing them the fix.
 
 3. How would you adapt this prompt for beginner vs. advanced learners?
-- *Beginner:* Add short conceptual reminders (e.g., “Remember: Python lists are 0-indexed”), more detailed interpretation of diagnostics, and slightly longer pseudocode hints. Provide 1–2 example unit tests to run.
+- Beginner: Add short conceptual reminders (e.g., “Remember: Python lists are 0-indexed”), more detailed interpretation of diagnostics, and slightly longer pseudocode hints. Provide 1–2 example unit tests to run.
   
 - Advanced: Reduce scaffolding; request targeted unit tests, edge-case generation, or complexity checks. Hints become briefer and assume familiarity with debugging tools (e.g., using a debugger, `pytest`, or `hypothesis`).
 
